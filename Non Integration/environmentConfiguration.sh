@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "Enter environment name (wduat1/wduat2/wduat3/wduat3/wdprd1/wdprd2/wdprd3/wdprd4/sandiskdev/sandisksit1/sandisksit2/sandiskqa1/sandiskqa2/sandiskprd1/sandiskprd2): " ENV
+read -p "Enter environment name (env1/env2): " ENV
 
 case "$ENV" in
   env1)
@@ -20,7 +20,7 @@ case "$ENV" in
     SCOPE_INSTANCE=""     
     ;;      
     *)
-    echo "Invalid environment name. Please enter wduat1/wduat2/wduat3/wduat3/wdprd1/wdprd2/wdprd3/wdprd4/sandiskdev/sandisksit1/sandisksit2/sandiskqa1/sandiskqa2/sandiskprd1/sandiskprd2."
+    echo "Invalid environment name. Please enter env1/env2."
     exit 1
     ;;
 esac

@@ -1,2 +1,4 @@
 # oicGen3CICD
-CI/CD Shell Scripts for Integration Cloud 3 automated Deployment 
+With OIC Gen 3 becoming the new norm, CI CD automated deployments are most in need of the hour
+Here is some of my contribution that may help developers to make it easer 
+CI/CD Shell Scripts for Integration Cloud 3 Automated Deployment 
